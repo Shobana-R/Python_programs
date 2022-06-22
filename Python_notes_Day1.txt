@@ -1,0 +1,58 @@
+Python
+Uses
+1.Web development
+2.Performing complex mathematical operations,analysing the datas
+3.Connecting to database
+4.File handling-Reading,Writing into the file
+5.Create games
+6.Artificial Intelligence and Machine learning
+7.Natural language processing(Training Dataset-learning)
+
+Why Python
+1.Simple---------{}---whitespace
+2.Huge library
+3.High performance,Faster
+4.For automated tasks
+
+Interpreter
+1.Translate the program one line of the program at a time into machine code.
+2.Stops at the first error.Easier to debug
+3.Overall execution time is slower
+4.No Intermediate Object code is generated.Efficient memory management.
+Ex.Python,Ruby,JavaScript
+
+Compiler
+1.Translate the program whole of the program into machine language at once.
+2.All error messages are displayed at the end
+3.Overall execution time is Faster
+4.Intermediate Object code is generated.Extra space on the machine.
+Ex:C,C++
+
+=================================================================
+IDLE- Integrated Development and Learning Environment
+
+print("Hi")
+Hi
+message="Hello"
+type(message)
+<class 'str'>
+score=98
+type(score)
+<class 'int'>
+score=97.999
+type(score)
+<class 'float'>
+student={
+    "firstName":"Jack",
+    "lastName":"Daniel",
+    "age":35,
+    "averageScore":78.67
+    }
+type(student)
+<class 'dict'>
+language=("Tamil","Kannada","English")
+type(language)
+<class 'tuple'>
+skillSet={"JavaScript","CSS","HTML"}
+type(skillSet)
+<class 'set'>

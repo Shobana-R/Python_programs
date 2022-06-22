@@ -1,0 +1,119 @@
+age=input("Enter your age:\n")
+Enter your age:
+18
+
+type(age)
+<class 'str'>
+
+age=int(input("Enter your age:\n"))
+Enter your age:
+45
+
+type(age)
+<class 'int'>
+
+age=float(input("Enter your age:\n"))
+Enter your age:
+45
+
+type(age)
+<class 'float'>
+
+print("The age you entered is: ",age)
+The age you entered is:  45.0
+age=bool(input("Enter your age:\n"))
+Enter your age:
+23
+
+print(age)
+True
+==========================================================
+mathsScore=float(input("Enter your maths score\n"))
+scienceScore=float(input("Enter your science score\n"))
+totalScore=mathsScore+scienceScore
+print("Total score is: ",totalScore)
+========================================================== RESTART: C:/Shobana/Aroha/Python/totalMarks.py =========================================================
+Enter your maths score89
+Enter your science score98
+
+========================================================== RESTART: C:/Shobana/Aroha/Python/totalMarks.py =========================================================
+Enter your maths score
+78
+Enter your science score
+98
+Total score is:  176
+
+========================================================== RESTART: C:\Shobana\Aroha\Python\totalMarks.py =========================================================
+Enter your maths score
+67
+Enter your science score
+89
+Total score is:  6789
+
+mathsScore,scienceScore=float(input("Enter your maths score\n")),float(input("Enter your science score\n"))
+Enter your maths score
+89
+Enter your science score
+97
+
+text="Hello world"
+text.count('o')
+2
+text.count('a')
+0
+
+text.find("world")
+6
+
+text.removesuffix("world")
+'Hello '
+
+text.rstrip()
+'Hello world'
+
+text=text.removesuffix("world")
+print(text)
+Hello 
+
+text.rstrip()
+'Hello'
+
+text="Work hard.You can achieve everything."
+text.split(" ")
+['Work', 'hard.You', 'can', 'achieve', 'everything.']
+
+text.split(".")
+['Work hard', 'You can achieve everything', '']
+
+text="Work hard.\nYou can achieve everything.\n"
+text.splitlines()
+['Work hard.', 'You can achieve everything.']
+print(text)
+Work hard.
+You can achieve everything.
+
+text=text.split(".")
+print(text)
+['Work hard', '\nYou can achieve everything', '\n']
+type(text)
+<class 'list'>
+
+text="Work hard.You can achieve everything."
+text.replace("hard","smart")
+'Work smart.You can achieve everything.'
+print(text)
+Work hard.You can achieve everything.
+
+text=text.replace("hard","smart")
+print(text)
+Work smart.You can achieve everything.
+
+text="Work hard,smart.You can achieve everything."
+text.split(" ")
+['Work', 'hard,smart.You', 'can', 'achieve', 'everything.']
+
+text.split(",")
+['Work hard', 'smart.You can achieve everything.']
+
+text.split(".")
+['Work hard,smart', 'You can achieve everything', '']

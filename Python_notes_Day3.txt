@@ -1,0 +1,151 @@
+
+score=20
+type(score)
+<class 'int'>
+=========
+score=19.999
+type(score)
+<class 'float'>
+=========
+markIsAvailable=True
+type(markIsAvailable)
+<class 'bool'>
+=========
+markIsAvailable=False
+type(markIsAvailable)
+<class 'bool'>
+=========
+print(12)
+12
+=========
+print(12>8)
+True
+=========
+print(12<8)
+False
+=========
+print(12==8)
+False
+=========
+print(12==12)
+True
+=========
+a=12
+b=8
+type(a>b)
+<class 'bool'>
+=========
+bool(4)
+True
+=========
+bool(1)
+True
+=========
+bool(-4)
+True
+=========
+bool(0)
+False
+=========
+bool(19.999)
+True
+=========
+bool("hi")
+True
+=========
+bool("hello")
+True
+=========
+bool("")
+False
+=========
+score=None
+type(score)
+<class 'NoneType'>
+=========
+bool(None)
+False
+=========
+bool(False)
+False
+=========
+bool(0)
+False
+=========
+bool([])
+False
+=========
+bool({})
+False
+=========
+bool(())
+False
+=========
+x=10
+y=2
+print(x+y)
+12
+=========
+print(x-y)
+8
+=========
+print(x*y)
+20
+=========
+print(x/y)
+5.0
+=========
+type(x/y)
+<class 'float'>
+=========
+print(x%y)
+0
+=========
+print(11%2)
+1
+=========
+print(x**y)
+100
+=========
+print(6**4)
+1296
+=========
+print(6**3)
+216
+=========
+print(x//y)
+5
+=========
+print(22//7)
+3
+=========
+print(7//3)
+2
+=========
+print(40//6)
+6
+=========
+x+=6
+print(x)
+16
+=========
+x-=6
+print(x)
+10
+=========
+score=[20,19,56]
+type(score)
+<class 'list'>
+=========
+print("The value of X is",x)
+The value of X is 10
+=========
+print("Marks obtained is",score)
+Marks obtained is [20, 19, 56]
+=========
+print("x is:",x,"y is:",y)
+x is: 10 y is: 2
+=========
+print("x is:",x,"\ny is:",y)
+x is: 10 
+y is: 2

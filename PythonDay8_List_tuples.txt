@@ -1,0 +1,92 @@
+randomList=["hi",8,-9,5.6]
+print(randomList)
+['hi', 8, -9, 5.6]
+print(len(randomList))
+4
+List1=[]
+print(len(List1))
+0
+Skills=["C","C++","JavaScript","Python"]
+print(Skills)
+['C', 'C++', 'JavaScript', 'Python']
+print(Skills[0])
+C
+print(Skills[-2])
+JavaScript
+print(Skills[0:3])
+['C', 'C++', 'JavaScript']
+print(Skills[:3])
+['C', 'C++', 'JavaScript']
+print(Skills[1:4])
+['C++', 'JavaScript', 'Python']
+print(Skills[1:])
+['C++', 'JavaScript', 'Python']
+Skills.append("React")
+print(Skills)
+['C', 'C++', 'JavaScript', 'Python', 'React']
+print(Skills[1:])
+['C++', 'JavaScript', 'Python', 'React']
+Skills[1:3]=["Ruby","C#"]
+print(Skills)
+['C', 'Ruby', 'C#', 'Python', 'React']
+Skills[2]="JavaScript"
+print(Skills)
+['C', 'Ruby', 'JavaScript', 'Python', 'React']
+print("React" in Skills)
+True
+newList=Skills.copy()
+print(newList)
+['C', 'Ruby', 'JavaScript', 'Python', 'React']
+for skill in Skills:
+    print(skill)
+
+    
+C
+Ruby
+JavaScript
+Python
+React
+Skills.insert(2,"Java")
+print(Skills)
+['C', 'Ruby', 'Java', 'JavaScript', 'Python', 'React']
+Skills.remove("JavaScript")
+print(Skills)
+['C', 'Ruby', 'Java', 'Python', 'React']
+Emp_name=("Hari","Ashok","Ram")
+type(Emp_name)
+<class 'tuple'>
+Emp_name[0]="Shyam"
+Traceback (most recent call last):
+  File "<pyshell#33>", line 1, in <module>
+    Emp_name[0]="Shyam"
+TypeError: 'tuple' object does not support item assignment
+Emp_name.count("Hari")
+1
+number=(45,21,67,-9)
+print(number)
+(45, 21, 67, -9)
+print(number[1])
+21
+print(number[1:4])
+(21, 67, -9)
+num=range(1,10)
+print(num)
+range(1, 10)
+for num in number:
+    print(num)
+
+    
+45
+21
+67
+-9
+
+========================================== RESTART: C:/Shobana/Aroha/Python/sq_cubes.py =========================================
+numbers:  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+squares:  [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+Cubes:  [1, 8, 27, 64, 125, 216, 343, 512, 729, 1000]
+
+
+
+Lists are mutable(can be changed-eg.values can be added,inserted,removed).
+Tuples are immutable(can't be changed)

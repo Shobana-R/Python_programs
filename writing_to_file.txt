@@ -1,0 +1,16 @@
+1.Take number of lines as user input.Based on user input print the pattern
+1
+1 2
+1 2 3
+1 2 3 4
+
+2.Take number of lines as user input.Based on user input print the pattern
+*
+* *
+* * *
+* * * *
+3.Take number of lines as user input.Based on user input print the pattern
+   *
+  * *
+ * * *
+4.Read,write and append information on to a file

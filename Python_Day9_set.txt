@@ -1,0 +1,54 @@
+set1=set()
+print("Blank set:",set1)
+Blank set: set()
+
+#creating set with values
+set2=set("Set with string")
+print(set2)
+{'t', 'r', 'i', 'e', 'h', ' ', 'g', 's', 'n', 'w', 'S'}
+
+#creating set with  list
+set3=set(["set","with","List"])
+print(set3)
+{'List', 'set', 'with'}
+
+#adding elements to a set
+set6=set()
+set6.add(1)
+set6.add("string")
+set6.add((6,7))
+print(set6)
+{1, 'string', (6, 7)}
+
+set6.update([10,11])
+print("set 6 : ",set6)
+set 6 : {1, 10, 11, 'string', (6, 7)}
+for i in set6:
+    print(i)
+    
+1
+10
+11
+string
+(6, 7)
+
+print ("string" in set6)
+True
+
+set6.remove("string")
+print("set6: ",set6)
+set6:  {1, 10, 11, (6, 7)}
+
+set6.pop()
+1
+print("set6 after pop: ",set6)
+set6 after pop: {10, 11, (6, 7)}
+
+set6.clear()
+print("set6 after clear: ",set6)
+set6 after clear: set()
+
+set4=(1,2,3,4,6,5)
+fset=frozenset(set4)
+print(fset)
+frozenset({1, 2, 3, 4, 5, 6})

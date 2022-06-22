@@ -1,0 +1,67 @@
+
+=========================================== RESTART: C:/Shobana/Aroha/Python/grade.py ===========================================
+Enter the marks98
+The grade obtained is A+
+
+=========================================== RESTART: C:/Shobana/Aroha/Python/grade.py ===========================================
+Enter the marks67
+The grade obtained is F
+
+=========================================== RESTART: C:/Shobana/Aroha/Python/grade.py ===========================================
+Enter the marks67
+The grade obtained is B
+-----------------------------
+
+=========================================== RESTART: C:/Shobana/Aroha/Python/grade.py ===========================================
+Enter the marks89
+The grade obtained is A
+-----------------------------
+range(8)
+range(0, 8)
+
+for temp in num:
+    print(temp)
+
+0
+1
+2
+3
+4
+5
+6
+7
+num=range(8,15)
+for handle in num:
+    print(handle)
+
+8
+9
+10
+11
+12
+13
+14
+numb=range(8,15,2)
+for temp in numb:
+    print(temp)
+
+8
+10
+12
+14
+
+======================================== RESTART: C:/Shobana/Aroha/Python/upper_lower.py ========================================
+The following are the ASCII codes generated lower-case alphabets
+
+a b c d e f g h i j k l m n o p q r s t u v w x y z =============================
+
+======================================== RESTART: C:/Shobana/Aroha/Python/upper_lower.py ========================================
+The following are the ASCII codes generated lower-case alphabets
+
+a b c d e f g h i j k l m n o p q r s t u v w x y z 
+=============================
+The following are the ASCII codes generated lower-case alphabets
+
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+=============================
+

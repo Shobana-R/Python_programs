@@ -1,0 +1,50 @@
+a) Installing the Python software IDLE (shell)
+   
+   where is Python used
+ 
+   Advantages of using Python.
+   
+   How does a Python prog executes?
+
+   What is a interpreter in Python
+
+   What is the compiler in Python
+
+b) what is a variable
+
+,c) what are operators
+
+d) how to print a value
+
+e) how to print a message + value
+
+f) how to take keyboard input
+
+g) Type casting
+h) Relational operators 
+   >
+   <
+   >=
+   <=
+   ==
+   !=
+
+i) logical operators
+    not
+    and 
+    or
+
+j) what is loop?
+ if elif else
+k) for with range concept
+
+   while 
+break 
+continue
+
+l) Built in functions like sum, len, max , min
+ 
+m) what is string and methods of string
+
+n) Collections- list , tuple,  set and dictionary
+

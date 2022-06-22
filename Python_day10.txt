@@ -1,0 +1,71 @@
+Dictionary
+==========
+{key:value,key:value}
+key,value pair.key should be unique,must be of immutable datatype..
+Immutable datatype include tuples,string and other basic datatypes in pyrhon.
+
+============
+collections:
+===========
+List-
+1.ordered,
+2.allows duplicate,
+3.changable
+Set-
+1.unordered
+2.no duplicates,
+3.We can add and remove values, can't change existing values
+Tuple-
+1.ordered
+2.allows duplicate,
+3.cannot be changed
+Dictionary-
+1.ordered
+2.Changeable
+3.no duplicates
+
+
+===================================================
+num1=35
+num2=num1
+print(num1)
+35
+print(num2)
+35
+num1=num1+3
+print(num1)
+38
+print(num2)
+35
+tuple1=(90,10,21,2)
+tuple[1]=78
+Traceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    tuple[1]=78
+TypeError: 'type' object does not support item assignment
+text="Hello"
+text[0]='y'
+Traceback (most recent call last):
+  File "<pyshell#10>", line 1, in <module>
+    text[0]='y'
+TypeError: 'str' object does not support item assignment
+
+
+========================================== RESTART: C:/Shobana/Aroha/Python/Dict_ex2.py =========================================
+100   56 129 
+250   65 67 78 90 
+350   32 10 8 5 
+Total: 540
+Maximum 129
+Minimum 5
+Average  54.0
+
+========================================== RESTART: C:/Shobana/Aroha/Python/Dict_ex2.py =========================================
+key is  100  value is 56 129 
+key is  250  value is 65 67 78 90 
+key is  350  value is 32 10 8 5 
+Total: 540
+Maximum 129
+Minimum 5
+Average  54.0
+

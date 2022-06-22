@@ -1,0 +1,122 @@
+bool
+====
+All strings are True,except empty string.
+For all integers and float except zero,bool value is True.
+In general, content must be present in the value,so that the bool evaluates to true.
+
+Operators
+=========
+Arithmetic operator:
+====================
+x+y
++ is the operator
+x,y are the operands
++,-,*,/(along with the decimals float),%-modulo(remainder),**(exponential),//(just cuts off the decimal-rounds off)
+
+Precedence
+===========
+Brackets,Division,Mulitiplication,Addition,Subtraction
+
+Shorthand assignment or assignment operator
+===========================================
+x+=2
+x=x+2
+x//=6
+x=x//6
+
+comparison operartor
+====================
+>,<,>=,<=,==,!=
+
+Logical operators
+=================
+and
+both the conditions must evaluate to true
+
+or
+At least one of the conditions must evaluate to true
+
+not
+Exact opposite of the operand
+
+prints a new line-----\n
+
+
+IDLE Practise
+=============
+5+2*3
+11
+
+(5+2)*3
+21
+
+x=12
+x//=6
+print(x)
+2
+
+score=90.2
+score>90 and score<100
+True
+
+score>91 and score<100
+False
+
+scoreIsAvailable=True
+print(scoreIsAvailable and (not scoreIsAvailable))
+False
+
+print(not scoreIsAvailable)
+False
+
+score>91 or score<100
+True
+
+score==85 or score<90
+False
+
+print("You have passed your exams")
+You have passed your exams
+
+print(score)
+90.2
+
+print("Your results has been published: ",scoreIsAvailable," and your score is:",score)
+Your results has been published:  True  and your score is: 90.2
+
+name=input("Enter your name")
+Enter your nameShobana
+
+name=input("Enter your name\n")
+Enter your name
+Shobana
+
+type(name)
+<class 'str'>
+
+print(name)
+Shobana
+
+print("The name that you have entered is ",name)
+The name that you have entered is  Shobana
+
+location=input("Enter the city and the state seperated by ,\n")
+Enter the city and the state seperated by ,
+Bangalore,KA
+
+print(location)
+Bangalore,KA
+
+location.split(",")
+['Bangalore', 'KA']
+
+locationList=location.split(",")
+type(locationList)
+<class 'list'>
+
+score=input("Enter your score\n")
+Enter your score
+87
+
+type(score)
+<class 'str'>

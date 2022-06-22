@@ -1,0 +1,68 @@
+Python Program execution
+========================
+C:\Users\Shobana Raghunathan>cd C:\Shobana\Aroha\Python
+
+C:\Shobana\Aroha\Python>cd c:
+C:\Shobana\Aroha\Python
+
+C:\Shobana\Aroha\Python>cd ..
+
+C:\Shobana\Aroha>cd ..
+
+C:\Shobana>cd ..
+
+C:\>cd c:\Shobana\Aroha\Python
+
+c:\Shobana\Aroha\Python>notepad Addition.py
+
+c:\Shobana\Aroha\Python>python -m Addition.py
+a+b
+
+c:\Shobana\Aroha\Python>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 3CFC-E64D
+
+ Directory of c:\Shobana\Aroha\Python
+
+02-06-2022  14:35    <DIR>          .
+02-06-2022  14:35    <DIR>          ..
+02-06-2022  14:33                24 Addition.py
+01-06-2022  16:15             1,485 Python_notes_Day1.txt
+02-06-2022  14:35    <DIR>          __pycache__
+               2 File(s)          1,509 bytes
+               3 Dir(s)  699,686,350,848 bytes free
+
+c:\Shobana\Aroha\Python>cd  __pycache__
+
+c:\Shobana\Aroha\Python\__pycache__>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 3CFC-E64D
+
+ Directory of c:\Shobana\Aroha\Python\__pycache__
+
+02-06-2022  14:35    <DIR>          .
+02-06-2022  14:35    <DIR>          ..
+02-06-2022  14:35               173 Addition.cpython-310.pyc
+               1 File(s)            173 bytes
+               2 Dir(s)  699,686,100,992 bytes free
+
+c:\Shobana\Aroha\Python\__pycache__>python Addition.cpython-310.pyc
+a+b
+
+c:\Shobana\Aroha\Python\__pycache__>cd ..
+
+c:\Shobana\Aroha\Python>python Addition.py
+60
+==========================
+Step 1:Created a python program(source code-fileName.py)
+Execution include 2 steps:
+Compilation
+Interpretation
+Step 2:Python source code is converted into byte code.Byte code is platform independent(runs on all hardware and operating system).(creates a __pycache__ directory and inside it it creates fileName.pyc)
+Step 3:Byte code converted into machine language.PVM(Python Virtual Machine) takes care of converting the byte code into machine language.PVM(Python Virtual Machine) is present inside the python interpreter.
+JIT(Just In Time)---->Improves the execution speed.
+============================
+
+source code(fileName.py)---->fileName.pyc(Python Byte code)--PVM---->machine language->output   is generated
+
+
